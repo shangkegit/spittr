@@ -24,4 +24,9 @@ public class SongRepository implements SpittleRepository {
         }*/
         return spittleList;
     }
+
+    @Override
+    public Spittle findOne(Long Id) {
+        return new Spittle("Hello world! The First Spittle", new Date());
+    }
 }

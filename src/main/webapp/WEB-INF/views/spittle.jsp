@@ -5,8 +5,7 @@
         <title>Spittr</title>
     </head>
     <body>
-        <h1>Welcome Spittr</h1>
-        <a href="<c:url value='/spittles' />">Spittr</a> |
-        <a href="<c:url value='/spitter/register' />">Register</a>
+        <div><c:out value="${spittle.message}" /></div>
+        <div><span><c:out value="${spittle.time}" /></div>
     </body>
 </html>

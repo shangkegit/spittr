@@ -81,6 +81,21 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.2.2</version>
             </plugin>
+            <!--<plugin>
+                <groupId>org.codehaus.cargo</groupId>
+                <artifactId>cargo-maven2-pluging</artifactId>
+                <version>1.0</version>
+                <configuration>
+                    <container>
+                        <containerId>tomcat9x</containerId>
+                        <home>D:\dev\apache-tomcat-9.0.30</home>
+                    </container>
+                    <configuration>
+                        <type>standalone</type>
+                        <home>${project.build.directory}/comcat9x</home>
+                    </configuration>
+                </configuration>
+            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>

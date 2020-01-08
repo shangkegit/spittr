@@ -5,8 +5,9 @@
         <title>Spittr</title>
     </head>
     <body>
-        <h1>Welcome Spittr</h1>
-        <a href="<c:url value='/spittles' />">Spittr</a> |
-        <a href="<c:url value='/spitter/register' />">Register</a>
+        <h1>Your Profile</h1>
+
+        <div><c:out value="${spitter.userName}" /></div>
+        <div><span><c:out value="${spitter.firstName} ${spitter.lastName}" /></div>
     </body>
 </html>

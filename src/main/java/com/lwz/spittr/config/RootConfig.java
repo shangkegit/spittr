@@ -24,4 +24,5 @@ public class RootConfig {
         }
         return new SongRepository(spittles);
     }
+
 }
