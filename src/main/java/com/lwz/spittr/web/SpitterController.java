@@ -33,9 +33,7 @@ public class SpitterController {
     }
 
     @RequestMapping(value = "/register", method = RequestMethod.POST)
-    public String processRegistration(
-            @RequestPart("profilePicture") byte[] profilePicture,
-            @Valid Spitter spitter, Errors errors) {
+    public String processRegistration(@Valid Spitter spitter, Errors errors) {
         if (errors.hasErrors()) {
             return "registerForm";
         }
