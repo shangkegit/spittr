@@ -10,7 +10,7 @@
     <packaging>war</packaging>
 
     <properties>
-        <org.springframework.version>4.1.2.RELEASE</org.springframework.version>
+        <org.springframework.version>5.2.20.RELEASE</org.springframework.version>
         <commons-logging.version>1.2</commons-logging.version>
         <junit.version>4.12</junit.version>
         <aspectj.version>1.9.1</aspectj.version>
